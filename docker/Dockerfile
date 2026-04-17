@@ -8,7 +8,6 @@ RUN pip3 install mmcv-full==1.4.4 -f https://download.openmmlab.com/mmcv/dist/cu
 RUN pip3 install mmsegmentation==0.23.0
 RUN pip3 install mmcls==0.21.0
 RUN pip3 install pyyaml==6.0
-RUN pip3 install yapf==0.40.1
 
 # RUN pip3 install torch==1.13.0
 # RUN pip3 install torchvision==0.14.0
@@ -31,4 +30,5 @@ RUN mkdir -p /tmp/mmseg \
 RUN pip3 install supervisely[model-benchmark]==6.73.545
 RUN pip3 install mmengine==0.10.7
 RUN pip3 install "urllib3<2"
+RUN pip3 install yapf==0.40.1
 LABEL python_sdk_version="6.73.545"
